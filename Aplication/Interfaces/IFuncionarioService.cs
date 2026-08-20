@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Application.Interfaces
 {
-    internal interface IFuncionarioService
+    public interface IFuncionarioService
     {
         Task<List<FuncionarioOutputDto>> GetAllAsync();
 

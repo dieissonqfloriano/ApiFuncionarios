@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Application.DTOs
 {
-    internal class FuncionarioOutputDto
+    public class FuncionarioOutputDto
     {
         public int Id { get; set; }
         public string Nome { get; set; } = string.Empty;
