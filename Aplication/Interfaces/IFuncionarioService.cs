@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Application.Interfaces
 {
-    internal class FuncionarioService
+    internal class IFuncionarioService
     {
     }
 }
